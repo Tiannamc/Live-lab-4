@@ -1,20 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nomadiq Travel Destinations</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header class="site-header">
-    <div class="logo">🌍 Nomadiq Travel Destinations</div>
-    <nav class="nav-links">
-      <a href="#">Home</a>
-      <a href="#">Destinations</a>
-      <a href="#">Contact</a>
-    </nav>
-  </header>
-</body>
-</html>
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfdfd;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background: #e3f2fd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1e88e5;
+}
+
+.nav-links a {
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 1rem;
+  color: #1565c0;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #0d47a1;
+}
